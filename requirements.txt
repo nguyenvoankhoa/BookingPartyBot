@@ -1,0 +1,7 @@
+Gunicorn
+openai
+python-dotenv
+Flask
+Flask-Cors
+pydantic
+pydantic_core
