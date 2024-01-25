@@ -3,10 +3,10 @@ from dotenv import load_dotenv
 import os
 
 load_dotenv()
-api_key = os.getenv("API_KEY")
+# api_key = os.getenv("API_KEY")
 assistant_id = os.getenv("ASSISTANT_ID")
 
-client = OpenAI(api_key=api_key)
+client = OpenAI(api_key="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")
 
 
 def send_user_message(message_body):
