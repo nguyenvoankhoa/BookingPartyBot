@@ -26,7 +26,7 @@ def get_answer_for_question(question: str, knowledge_base: dict) -> str | None:
 
 
 def get_algorithm_result(user_input) -> str | dict:
-    knowledge_base: dict = load_knowledge_base('knowledge_base.json')
+    knowledge_base: dict = load_knowledge_base('algo/knowledge_base.json', )
     best_match: str | None = find_best_matching_question(user_input,
                                                          [q["question"] for q in knowledge_base.get("questions", [])])
     if best_match:
