@@ -25,5 +25,5 @@ env-bak/
 .DS_Store
 Thumbs.db
 
-# Local configuration file
-*.env
+## Local configuration file
+#*.env
